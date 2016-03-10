@@ -1,0 +1,27 @@
+@import 'bootstrap.min.css';
+@import 'font-awesome.min.css';
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.plant-list h2{
+    padding-left: 10px;
+    border-bottom: 1px dotted #202020;
+    width: 300px;
+}
+
+.plant-list ul li a:link{
+    color: #fafafa;
+}
+.plant-list ul li a:visited{
+    color: #fafafa;
+}
+.plant-list ul li a:hover{
+    color: #5cb85c;
+}
+.plant-list ul li a:active{
+    color: #a94442;
+}
