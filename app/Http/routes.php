@@ -31,4 +31,5 @@ Route::group(['middleware' => ['web']], function () {
         'as'=>'plant.index',
         'uses'=>'PlantsController@index'
     ]);
+    //Route::get('/visit/{id}', 'Controller@someMethod');
 });

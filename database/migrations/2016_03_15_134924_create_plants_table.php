@@ -25,6 +25,7 @@ class CreatePlantsTable extends Migration
             $table->string('onderhoud');
             $table->string('teeltoogst');
             $table->string('medicinaal');
+            $table->string('recepten');
             $table->string('bloemschikken');
             $table->timestamps();
         });

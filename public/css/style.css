@@ -1,0 +1,57 @@
+@import 'font-awesome.min.css';
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+header nav .menubutton{
+    padding: 10px 5px;
+    display: block;
+    background-color: #505050;
+    color: #fcfcfc;
+    text-align: right;
+    border-bottom: 1px solid black;
+}
+
+header nav ul{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+header nav ul li{
+    padding: 0;
+    border-bottom: 2px solid black;
+    background-color: #808080;
+}
+header nav ul li img{
+    height: 60px;
+    width: auto;
+}
+
+header nav ul li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header nav ul li a:link{
+    color: #ecf0f1;
+}
+
+header nav ul li a:visited{
+    color: #ecf0f1;
+}
+
+header nav ul li a:hover{
+    color: #37d077;
+    text-decoration: none;
+}
+
+header nav ul li a:active{
+    color: #2980b9;
+}
+
+.error {
+    color: #e74c3c;
+}
