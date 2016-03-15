@@ -1,7 +1,14 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: webdesigner
- * Date: 14/03/16
- * Time: 15:57
- */
+@extends('layouts.main')
+
+@section('title', 'Overview')
+
+@section('content')
+
+    @if($plants->isEmpty())
+        <p>There are no games! :(</p>
+    @else
+        @foreach($plants as $plant)
+            {{ $plant->naam }}
+        @endforeach
+    @endif
+@endsection

@@ -27,5 +27,8 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+    Route::get('/', [
+        'as'=>'plant.index',
+        'uses'=>'PlantsController@index'
+    ]);
 });

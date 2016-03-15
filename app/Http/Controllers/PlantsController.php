@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Plant;
-use App\Post;
 
 use Illuminate\Http\Request;
+
+use App\Plant;
 
 use App\Http\Requests;
 
@@ -13,13 +13,8 @@ class PlantsController extends Controller
     public function index()
     {
         $plants = Plant::all();
-        return view('plant.index', compact('plants'));
-    }
 
-    public function show( $id )
-    {
-        $plants = Plant::findOrFail($id);
-        return view('plant.show', compact('plant'));
+        return view('plant.index', compact('plants'));
     }
 
     public function create()
